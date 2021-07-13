@@ -4,6 +4,7 @@ function Horse(){
 
 Horse.prototype.jump = function(){
 	console.log("jump1");
+	console.log("jump");
 }
 
 Module.export = Horse;
