@@ -1,10 +1,5 @@
-function Mouse(name){
+function mouse(name){
 	console.log("mouse");
-	this.dead = false;
 }
 
-Mouse.prototype.die = function(){
-	this.dead = true;
-}
-
-module.exports = Mouse;
+module.exports = mouse;
